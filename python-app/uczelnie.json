@@ -1,0 +1,8 @@
+{
+    "uczelnie": [
+        { "id": 1, "name": "Politechnika Poznanska", "type": "uczelnia", "miasto": "Poznań", "vote": "0" },
+        { "id": 2, "name": "UAM", "type": "uczelnia", "miasto": "Poznań", "vote": "0" },
+        { "id": 3, "name": "CDV", "type": "uczelnia", "miasto": "Poznań",  "vote": "0"},
+        { "id": 4, "name": "Politechnika Gdańska", "type": "uczelnia", "miasto": "Gdansk", "vote": "0" }
+    ]
+}

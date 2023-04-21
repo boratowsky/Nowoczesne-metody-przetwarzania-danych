@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zagłosuj na najlepszą uczelnię!</title>
+    </head>
+    <body>
+        {% for message in get_flashed_messages() %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+
+        <h1>Lista uczelni</h1>
+        <ul>
+            {% for school in schools %}
+            <li>{{ school.name }}, {{ school.miasto }}<br>Głosy: {{ school.vote }}, <a href="{{ url_for('vote', id=school.id) }}">oddaj swój głos</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
