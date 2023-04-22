@@ -6,4 +6,5 @@ Startowanie projektu:
 5. Na porcie 8001 jest redis-stack
 
 Plik frontend.py - frontend z głosowaniem
+
 Plik backend.py - backend z zczytywaniem pliku z danymi
